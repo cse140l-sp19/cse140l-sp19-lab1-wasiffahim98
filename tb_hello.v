@@ -47,6 +47,10 @@ module tb_hello;
    
    
    Lab1_hello Lab1_hello(.tb_a(tb_a), .tb_b(tb_b), .tb_c(tb_c), .L1_andOut(L1_andOut));
+	//Lab1_hello2 Lab1_hello(.tb_a(tb_a), .tb_b(tb_b), .tb_c(tb_c), .L1_orOut(L1_orOut));
+	//Lab1_hello3 Lab1_hello(.tb_a(tb_a), .tb_b(tb_b), .tb_c(tb_c), .L1_nandOut(L1_nandOut));
+	//Lab1_hello4 Lab1_hello(.tb_a(tb_a), .tb_b(tb_b), .tb_c(tb_c), .L1_norOut(L1_norOut));
+	//Lab1_hello5 Lab1_hello(.tb_a(tb_a), .L1_notOut(L1_notOut));
 
 endmodule
       

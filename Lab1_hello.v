@@ -9,7 +9,7 @@
 // Author:
 //
 
-module Lab1_hello(input tb_a, input tb_b, input tb_c, output L1_andOut);
+module Lab1_hello(input tb_a, input tb_b, input tb_c, output L1_andOut, output L1_orOut, output L1_nandOut, output L1_norOut, output L1_notOut_a);
 
    //Example boolean operation
    assign L1_andOut = tb_a & tb_b & tb_c;
