@@ -36,11 +36,12 @@ module tb_hello;
    end
 
    initial begin
-      #20;
-      $display("Hello There YOURNAME HERE");
+      //#20;
+      $display("Hello There Wasif Fahim");
    end
 
    initial begin
+		#20;
       $display("GoodBye!!!");
    end
    
